@@ -1,0 +1,163 @@
+
+.first{
+    border-top:double 10% solid #9ef385 ;
+    position: relative;
+    
+   
+}
+#ontop{
+    position: absolute;
+    color: white;
+    top: 0%;
+    left:20%
+}
+#navbar{
+  display: flex;
+  gap: 15%;
+  padding-right:5% ;
+   
+}
+#contact{
+    background-color: #FF00;
+    overflow: hidden;
+    padding: 9%;
+    font-size: larger;
+    font-weight: 1000;
+}
+#india{
+    text-align: center;
+    font-size: xx-large;
+    line-break: normal;
+    padding-top: 5%;
+}
+#time{
+    display: flex;
+    gap: 3%;
+}
+#premium{
+    display: flex;
+    gap: 5%;
+}
+#rasi{
+    text-align: center;
+}
+#design{
+    display: flex;
+    gap: 3%;
+}
+#clients{
+    text-align: center;
+}
+#icons{
+    display: flex;
+}
+#aditya{
+    display: flex;
+    gap: 5%;
+}
+#quality{
+    display: flex;
+}
+#showcasing{
+    text-align: center;
+}
+#show{
+    display: flex;
+}
+#map{
+    position: relative;
+
+}
+#address{
+    position: absolute;
+    text-align: center;
+}
+#reach{
+    text-align: center;
+}
+#ficon{
+    padding-top: 10%;
+}
+#map{
+    position: relative;
+    padding-bottom: 5px;
+}
+#address{
+    position: absolute;
+    top: 7%;
+}
+
+
+#footer{
+    display: flex;
+    background-color: darkblue;
+}
+#copyright{
+    text-align: center;
+}
+#mg{
+    width: 40%;
+}
+body{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+@media  screen and (max-width:600px) and (min-width:400px){
+    .first{
+       
+        position: relative;
+       flex-wrap: wrap;
+       width: 30%;
+    }
+    #ontop{
+       
+        top: 0%;
+        left:20%
+    }
+    #time{
+       
+        gap: 3%;
+        flex-wrap: wrap;
+    }
+    #premium{
+       flex-wrap: wrap;
+        gap: 3%;
+    }
+    #rasi{
+        text-align: center;
+        font-size: larger;
+    }
+    #design{
+       flex-wrap: wrap;
+        gap: 3%;
+    }
+    #icons{
+        flex-wrap:wrap;
+        flex-direction: row;
+    }
+    #aditya{
+        flex-wrap:wrap ;
+        gap: 3%;
+        flex-direction: row;
+    }
+    #quality{
+       
+        flex-wrap: wrap;
+    }
+    #show{
+      flex-wrap: wrap;  
+    }
+    #map{
+        position: relative;
+        padding-bottom: 5px;
+        width: 20%;
+    }
+
+#footer{
+  flex-wrap: wrap;
+    background-color: darkblue;
+}
+
+   
+    
+}
